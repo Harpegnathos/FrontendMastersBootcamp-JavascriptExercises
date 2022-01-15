@@ -1,0 +1,64 @@
+FUNCTIONS
+a bit of reusable code that takes in input and produces output
+function addTwo(number) {
+	return number + 2;
+}
+
+Const finalAnswer = addTwo(5);
+console.log(finalAnswer);
+
+7
+ 
+function fullName(firstName, secondName) {
+	return firstName + " " + secondName;
+}
+
+console.log(fullName("Josh", "Green"));
+
+Josh Green
+
+when you see () that means a function is being called
+
+SCOPE
+
+you cant reference something that is within another function. it goes out of scope once the block finishes
+What matters is where it was created, not necessarily where it was given a value or read
+
+OBJECTS
+objects can be within other objects
+they are unorderd
+They always appear between {}
+specific properties in an object can be called using console.log(ObjectName.SpecificProperty);
+
+
+ARRAYS
+Arrays will come back in an ordered way, whereas objects are always unordered
+They will always appear between []
+arrays are zero indexed, like everything in JavaScript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
